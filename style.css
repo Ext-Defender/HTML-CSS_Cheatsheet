@@ -5,9 +5,11 @@
 
 body {
   background-color: #DFF;
+  background: linear-gradient(35deg, #dff, #DDD);
+  margin: 0px;
 }
 header {
-  background-color: black;
+  background: linear-gradient(35deg, black, #263626);
   padding: 25px;
 }
 header h1 {
@@ -15,6 +17,7 @@ header h1 {
 }
 h2 {
   text-align: center;
+  margin-bottom: 0px;
 }
 section{
   margin-top: 50px;
@@ -33,23 +36,35 @@ td {
   text-align: center;
   height: 50px;
 }
+p {
+  margin: 10px 30px;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  background: linear-gradient(35deg, black, #263626);
+  color: lightgreen;
+  margin-top: 45px;
+  padding: 10px;
+}
 @media screen and (min-width: 1000px) {
   .html_tags,
-  .css_properties{
-    width: 50%;
-    border: 1px solid red;
+  .css_table{
+    width: 48%;
   }
   table {
     width:100%;
   }
-  .html_tags {
+  .html_table {
     float: left;
   }
-  .css_properties {
+  .css_table {
     float: right;
-
+    /*margin-bottom: 450px;*/
   }
   .learning_html {
-    margin-top: 100px;
+    width: 100%;
+    display: inline-block;
   }
 }

@@ -1,0 +1,55 @@
+* {
+  font-family: monospace, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #DFF;
+}
+header {
+  background-color: black;
+  padding: 25px;
+}
+header h1 {
+  color: lightgreen;
+}
+h2 {
+  text-align: center;
+}
+section{
+  margin-top: 50px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+th {
+  border-bottom: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  text-align: center;
+  height: 50px;
+}
+@media screen and (min-width: 1000px) {
+  .html_tags,
+  .css_properties{
+    width: 50%;
+    border: 1px solid red;
+  }
+  table {
+    width:100%;
+  }
+  .html_tags {
+    float: left;
+  }
+  .css_properties {
+    float: right;
+
+  }
+  .learning_html {
+    margin-top: 100px;
+  }
+}
